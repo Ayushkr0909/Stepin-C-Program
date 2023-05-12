@@ -6,7 +6,7 @@ int main(){
     int noOfDays[12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     int i = 0;
 
-    printf("Enter dd/mm/yyyy: ", dd, mm, yyyy);
+    printf("Enter dd/mm/yyyy: ");
     scanf("%d/%d/%d", &dd, &mm, &yyyy);
 
     if(yyyy % 100 == 0){
